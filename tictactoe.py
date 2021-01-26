@@ -1,10 +1,13 @@
 '''
------------------------------------
+------------------------------------------------------------
 This is a TicTacToe game in python.
 This code consists of 3 parts:
-1. wingame(l1,l2,l3)
-2. 
------------------------------------
+1. wingame(l1,l2,l3) checks if someone has won
+2. check(l1,l2,l3) checks if all positions are filled.
+3. place(l1,l2,l3,pos,val) places user input on the grid.
+4. printlist(l1,l2,l3) prints the grid.
+5. main() function integrates all the other functions.
+-------------------------------------------------------------
 '''
 def wingame(l1,l2,l3):
     if (l1[0]==l1[1] and l1[1]==l1[2]): # and l1[0]=='O'):

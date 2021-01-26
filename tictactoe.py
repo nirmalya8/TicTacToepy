@@ -1,4 +1,11 @@
-
+'''
+-----------------------------------
+This is a TicTacToe game in python.
+This code consists of 3 parts:
+1. wingame(l1,l2,l3)
+2. 
+-----------------------------------
+'''
 def wingame(l1,l2,l3):
     if (l1[0]==l1[1] and l1[1]==l1[2]): # and l1[0]=='O'):
         return l1[0]
